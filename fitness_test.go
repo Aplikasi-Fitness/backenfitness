@@ -46,7 +46,7 @@ func TestHashFunc(t *testing.T) {
 }
 
 func TestTokenEncoder(t *testing.T) {
-	conn := MongoCreateConnection("MONGOSTR", "Fitness")
+	conn := MongoCreateConnection("MONGOSTRING", "Fitness")
 	privateKey, publicKey := watoken.GenerateKey()
 	userdata := new(User)
 	userdata.Username = "cihuy"
