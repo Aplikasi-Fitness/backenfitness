@@ -1,4 +1,4 @@
-module github/FarhanRiziq01/Aplikasi-Fitness/backenfitness
+module github.com/Aplikasi-Fitness/backenfitness
 
 go 1.20
 
