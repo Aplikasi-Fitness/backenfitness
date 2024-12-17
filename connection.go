@@ -3,10 +3,11 @@ package backenfitness
 import (
 	"context"
 	"fmt"
+	"os"
+
 	"github.com/aiteung/atdb"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
-	"os"
 )
 
 func MongoCreateConnection(MongoString, dbname string) *mongo.Database {
